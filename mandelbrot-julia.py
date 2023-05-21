@@ -75,13 +75,13 @@ for x in range(julia_width):
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 6))
 
 
-ax1.imshow(mandelbrot_img)
+ax1.imshow(mandelbrot_img, extent=[re_start, re_end, im_start, im_end])
 ax1.set_title('Mandelbrot Fractal')
 ax1.set_xlabel('Real')
 ax1.set_ylabel('Imaginary')
 
 
-ax2.imshow(julia_img)
+ax2.imshow(julia_img, extent=[julia_re_start, julia_re_end, julia_im_start, julia_im_end])
 ax2.set_title('Julia Set')
 ax2.set_xlabel('Real')
 ax2.set_ylabel('Imaginary')

@@ -31,20 +31,20 @@ def julia(c, z0):
 
 
 
-mandelbrot_width = 1920
-mandelbrot_height = 1080
-re_start = -2
-re_end = 1
-im_start = -1
-im_end = 1
+mandelbrot_width = 2000
+mandelbrot_height = 2000
+re_start = -0.22
+re_end = -0.219
+im_start = -0.70
+im_end = -0.699
 
 
-julia_width = 1920
-julia_height = 1080
-julia_re_start = -1
-julia_re_end = 1
-julia_im_start = -1.2
-julia_im_end = 1.2
+julia_width = 2000
+julia_height = 2000
+julia_re_start = -0.5
+julia_re_end = 0.3
+julia_im_start = -0.5
+julia_im_end = 0.3
 julia_c = complex(0.285, 0.01)
 
 
